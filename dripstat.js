@@ -1,4 +1,4 @@
-var needToBuy = [150, 100, 100, 100, 100, 100, 100, 50, 25, 10];
+var needToBuy = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
 setInterval(function() {
 	$('#btn-addMem').click(); // auto click on "new Object()"
