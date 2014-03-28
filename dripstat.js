@@ -1,5 +1,7 @@
 var needToBuy = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
+document.hasFocus = function(){return true} // for click without focus
+
 setInterval(function() {
 	$('#btn-addMem').click(); // auto click on "new Object()"
 }, 1);
